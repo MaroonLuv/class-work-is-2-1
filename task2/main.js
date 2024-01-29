@@ -1,34 +1,12 @@
-const age = 14;
+let cringe = true;
+console.log("Сегодня важные пары?")
 
-if (age >= 18)
+if (cringe == true)
 {
-    console.log("Вы можете работать!");
+    console.log("Сколько сегодня пар?")
+    let count = 4;
+    if (count < 4)
+    {
+        console.log("Сиди дома")
+    }
 }
-else if (age >= 16)
-{
-    console.log("Вы можете работать, но с ограничениями!");
-}
-else if (age >= 14)
-{
-    console.log("Вы можете работать, но с разрешения родителей!");
-}
-else
-{
-    console.log("Вы не можете работать!");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
